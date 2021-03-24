@@ -1,0 +1,38 @@
+To checkout and create a branch
+Create directory called todo-list
+cd todo-list/
+git init
+git remote add origin https://github.com/wangx6/todo-list.git
+Git remote -v        (this will tell you what repository you are pointing at)
+git pull https://github.com/wangx6/todo-list.git
+	(git fetch --all     (this will bring down all branches code)
+git checkout -b feature/create-side-menu
+	(-b will create branch - always use lowercase feature. You will use this when creating a branch for first time)
+	git branch -m feature/lqe-102-quote-service   (you would use this if you want to rename your branch to a new name. If you work on an old branch and want to create a new branch)
+git branch            (will tell you what branch you are on)
+
+git pull origin develop (Do this to get latest code changes from develop branch)
+git checkout - (this will revert you back to previous branch)
+
+When you have changes ready to commit
+git add .	Add everything to branch
+Git status	Will show you what changes you have made to check in
+Git commit -m "test changes"	This will add message to your check ing
+git push -u origin <<branch name>>	This will commit your changes
+
+TO PULL LATEST CHANGES (do each morning or as often as possible)
+git pull origin main https://github.com/wangx6/todo-list.git
+
+
+GITHUB in BROWSER
+Go into branches
+Add branch rules for master and develop to ensure no one can commit without a review/pull first
+Ensure at least two reviewers must sign off before merge to master/main/develop is allowed
+
+After you commit your changes
+	Go into my branch.
+	Select COMPARE AND CREATE PULL REQUEST
+	Add reviewers to do the review of code in pull request
+
+Downloaded Source Tree as a great tool to visualize differences between files and branches etc.
+	Also allow you to pull and commit from Git
