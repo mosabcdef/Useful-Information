@@ -1,4 +1,4 @@
-To checkout and create a branch
+*** To checkout and create a branch ***
 Create directory called todo-list
 cd todo-list/
 git init
@@ -6,11 +6,17 @@ git remote add origin https://github.com/wangx6/todo-list.git
 Git remote -v        (this will tell you what repository you are pointing at)
 git pull https://github.com/wangx6/todo-list.git
 	(git fetch --all     (this will bring down all branches code)
+
+*** TO CREATE A NEW BRANCH ON YOUR MACHINE THAT DOESN'T EXIST IN GITHUB ***
 git checkout -b feature/create-side-menu
 	(-b will create branch - always use lowercase feature. You will use this when creating a branch for first time)
 	git branch -m feature/lqe-102-quote-service   (you would use this if you want to rename your branch to a new name. If you work on an old branch and want to create a new branch)
 git branch            (will tell you what branch you are on)
 
+*** TO BRING DOWN A BRANCH FROM GITHUB THAT YOU DON'T YET HAVE ON YOUR MACHINE ***
+ git checkout feature/es6Compatibility
+
+*** UPDATE LATEST CODE TO A BRANCH FROM GITHUB TO YOUR MACHINE ***
 git pull origin develop (Do this to get latest code changes from develop branch)
 git checkout - (this will revert you back to previous branch)
 
