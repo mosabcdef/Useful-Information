@@ -1,3 +1,6 @@
+*** To clone a repository from GitHub to your own Machine ***
+git clone git@github.vhihealthcare.net:web-engineering/TEMPLATE_CAPI.git
+
 *** To checkout and create a branch ***
 Create directory called todo-list
 cd todo-list/
