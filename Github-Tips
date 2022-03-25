@@ -17,7 +17,9 @@ git checkout -b feature/create-side-menu
 git branch            (will tell you what branch you are on)
 
 *** TO BRING DOWN A BRANCH FROM GITHUB THAT YOU DON'T YET HAVE ON YOUR MACHINE ***
- git checkout feature/es6Compatibility
+ git fetch --all          (this will bring down all branches of a repository to your machine)
+ git switch feature/branch-name           (switch locally to the new branch)
+ git pull origin feature/branch-name      (to ensure you have all changes from that branch)
 
 *** UPDATE LATEST CODE TO A BRANCH FROM GITHUB TO YOUR MACHINE ***
 git pull origin develop (Do this to get latest code changes from develop branch)
