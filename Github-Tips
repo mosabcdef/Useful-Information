@@ -13,7 +13,9 @@ git pull https://github.com/wangx6/todo-list.git
 *** TO CREATE A NEW BRANCH ON YOUR MACHINE THAT DOESN'T EXIST IN GITHUB ***
 git checkout -b feature/create-side-menu
 	(-b will create branch - always use lowercase feature. You will use this when creating a branch for first time)
-	git branch -m feature/lqe-102-quote-service   (you would use this if you want to rename your branch to a new name. If you work on an old branch and want to create a new branch)
+	
+*** TO RENAME A BRANCH ***
+git branch -m feature/externaliseVariables feature/bacd-587-techstory-externalise-variables-to-a-config-file   (you would use this if you want to rename your branch to a new name.)
 git branch            (will tell you what branch you are on)
 
 *** TO BRING DOWN A BRANCH FROM GITHUB THAT YOU DON'T YET HAVE ON YOUR MACHINE ***
