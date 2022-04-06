@@ -27,6 +27,12 @@ git branch            (will tell you what branch you are on)
 git pull origin develop (Do this to get latest code changes from develop branch)
 git checkout - (this will revert you back to previous branch)
 
+*** CONFLICTS WHEN UPDATING YOUR BRANCH FROM ANOTHER ***
+git stash
+git pull origin develop
+git stash apply
+ -- fix any conflicts
+
 *** When you have changes ready to commit ***
 git add .	Add everything to branch
 Git status	Will show you what changes you have made to check in
