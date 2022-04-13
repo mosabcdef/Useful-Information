@@ -33,6 +33,12 @@ git pull origin develop
 git stash apply
  -- fix any conflicts
 
+*** CONFLICTS WHEN TRYING TO MERGE ***
+https://stackoverflow.com/questions/1223354/undo-git-pull-how-to-bring-repos-to-old-state
+So git relog gives you this,
+and then git reset --hard 9db6bda brings you back to that commit
+
+
 *** When you have changes ready to commit ***
 git add .	Add everything to branch
 Git status	Will show you what changes you have made to check in
