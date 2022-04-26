@@ -32,6 +32,10 @@ git stash
 git pull origin develop
 git stash apply
  -- fix any conflicts
+ -- Use this to show files stashed
+ git stash show
+ -- Use this to show the file diff to the console
+ git stash show -p (press q to exit)
 
 *** CONFLICTS WHEN TRYING TO MERGE ***
 https://stackoverflow.com/questions/1223354/undo-git-pull-how-to-bring-repos-to-old-state
