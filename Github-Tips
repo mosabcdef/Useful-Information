@@ -27,6 +27,10 @@ git branch            (will tell you what branch you are on)
 git pull origin develop (Do this to get latest code changes from develop branch)
 git checkout - (this will revert you back to previous branch)
 
+
+*** TO SHOW GRAPHICAL VIEW OF ALL COMMITS IN PROJECT ***
+gitk
+
 *** CONFLICTS WHEN UPDATING YOUR BRANCH FROM ANOTHER ***
 git stash
 git pull origin develop
