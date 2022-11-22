@@ -46,6 +46,11 @@ https://stackoverflow.com/questions/1223354/undo-git-pull-how-to-bring-repos-to-
 So git relog gives you this,
 and then git reset --hard 9db6bda brings you back to that commit
 
+*** CONFLICTS WHEN BRINGING DOWN LATEST OF A BRANCH ***
+Unstage any changes.
+Discard all changes
+git merge --quit
+git reset --soft origin/<<branch-name>>
 
 *** When you have changes ready to commit ***
 git add .	Add everything to branch
